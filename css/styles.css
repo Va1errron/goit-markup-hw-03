@@ -224,7 +224,10 @@ justify-content: center;
     
 }
 
-.team-image {}   
+.team-image {
+
+    display: block
+}   
 
 
 
@@ -292,11 +295,12 @@ justify-content: center;
         justify-content: center;
         flex-direction: column;
         gap: 8px;
-        padding-block: 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
         padding-left: 16px;
-        border-bottom: 1px solid #6495ED;
-        border-left: 1px solid #6495ED;
-        border-right: 1px solid #6495ED;
+        border-bottom: 1px solid#e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
         
         
     
@@ -304,6 +308,7 @@ justify-content: center;
 }
 
 .portfolio-image {
+    display: block
     
 }
 
