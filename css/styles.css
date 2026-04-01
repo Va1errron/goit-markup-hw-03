@@ -81,12 +81,14 @@ color: #404bbf;
 .header-contacts-link:focus {
     color: #404bbf;
 }
-.header{
-    padding-block: 24px;
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav{
     display: flex;
+    padding-block: 24px;
 }
 
 .header-menu-list{
@@ -102,6 +104,7 @@ color: #404bbf;
  
 .header-contacts {
     margin-left: auto;
+    padding-block: 24px;
    
 }
 .header-container{
@@ -111,7 +114,7 @@ color: #404bbf;
 /*-------------SOLUTIONS------------*/
 .solutions {
     background: #2e2f42;
-    padding: 188px 316px 188px 316px;
+    padding-block: 188px
 }
 .solutions-title {
         font-size: 56px;
@@ -209,12 +212,14 @@ justify-content: center;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 32px;
-        padding-bottom: 32px;
+        
+        
   
 }
 
 .team-info{
+    padding: 32px 16px;
+    min-width: 232px;
     
 }
 
@@ -266,7 +271,7 @@ justify-content: center;
 
 .portfolio-list {
     display: flex;
-    gap: 40px 24px;
+    gap: 48px 24px;
     justify-content: center;
     flex-wrap: wrap;
 
@@ -275,7 +280,7 @@ justify-content: center;
 .portfolio-item {
     
     width: calc((100% - 24px * 2) / 3);
-    border: 1px solid var(--cornflower);
+    border: 1px solid #6495ED
 
 }
 
@@ -325,6 +330,7 @@ justify-content: center;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
+        margin-top: 16px;
 }
 .footer-logo {
     font-weight: 700;
@@ -335,7 +341,7 @@ justify-content: center;
         color: #f4f4fd;
     font-family: "Raleway", sans-serif;
     max-width: 115px;
-    margin-bottom: 16px;
+    
 
 }
 .footer-logo .active {color: #4d5ae5;}
