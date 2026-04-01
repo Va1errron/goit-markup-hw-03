@@ -52,9 +52,15 @@ button {
         text-transform: uppercase;
         color: #2e2f42;
     font-family: "Raleway", sans-serif;
+    
+    max-width: 115px;
+    margin: auto ;
     margin-right: 76px;
 }
-.header-logo .active {color: #4d5ae5;}
+.header-logo .active {
+    color: #4d5ae5;
+
+}
 .header-menu-link {
     font-weight: 500;
         font-size: 16px;
@@ -62,6 +68,7 @@ button {
         letter-spacing: 0.02em;
         color: #2e2f42;
         padding-block: 24px;
+        display: block;
 }
 .header-menu-link:hover {
 color: #404bbf;
@@ -75,6 +82,8 @@ color: #404bbf;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+            display: block;
+            padding: 24px;
 }
 .header-contacts-link:hover {
     color: #404bbf;
