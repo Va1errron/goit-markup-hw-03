@@ -51,11 +51,10 @@ button {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
-    font-family: "Raleway", sans-serif;
-    
-    max-width: 115px;
-    margin: auto ;
-    margin-right: 76px;
+        font-family: "Raleway", sans-serif;
+        padding-block: 24px;
+        max-width: 115px;
+        margin-right: 76px;
 }
 .header-logo .active {
     color: #4d5ae5;
@@ -83,7 +82,7 @@ color: #404bbf;
         letter-spacing: 0.02em;
         color: #434455;
             display: block;
-            padding: 24px;
+            padding-block: 24px;
 }
 .header-contacts-link:hover {
     color: #404bbf;
